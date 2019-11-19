@@ -9,8 +9,12 @@
 import SwiftUI
 
 struct ContentView: View {
+ 
     var body: some View {
         TabView {
+            Profile().tabItem {
+                Text("Profile")
+            }
             Top10().tabItem {
                 Text("Top10")
             }
