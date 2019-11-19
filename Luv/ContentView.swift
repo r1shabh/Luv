@@ -9,8 +9,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection = 0
- 
     var body: some View {
         TabView {
             Top10().tabItem {
@@ -23,11 +21,5 @@ struct ContentView: View {
                 Text("Ideas")
             }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

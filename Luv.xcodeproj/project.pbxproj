@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7922B0CA2384819400D3FB84 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7922B0C92384819400D3FB84 /* Profile.swift */; };
 		F32B1184238478F500FDBF46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B1183238478F500FDBF46 /* AppDelegate.swift */; };
 		F32B1186238478F500FDBF46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B1185238478F500FDBF46 /* SceneDelegate.swift */; };
 		F32B1189238478F500FDBF46 /* Luv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F32B1187238478F500FDBF46 /* Luv.xcdatamodeld */; };
@@ -14,13 +15,13 @@
 		F32B118D238478F800FDBF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32B118C238478F800FDBF46 /* Assets.xcassets */; };
 		F32B1190238478F800FDBF46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32B118F238478F800FDBF46 /* Preview Assets.xcassets */; };
 		F32B1193238478F800FDBF46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32B1191238478F800FDBF46 /* LaunchScreen.storyboard */; };
-		F32B11A02384797D00FDBF46 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B119F2384797D00FDBF46 /* Profile.swift */; };
 		F32B11A22384798600FDBF46 /* Top10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B11A12384798600FDBF46 /* Top10.swift */; };
 		F32B11A42384798F00FDBF46 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B11A32384798F00FDBF46 /* Locations.swift */; };
 		F32B11A62384799800FDBF46 /* Ideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B11A52384799800FDBF46 /* Ideas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7922B0C92384819400D3FB84 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		F32B1180238478F500FDBF46 /* Luv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32B1183238478F500FDBF46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F32B1185238478F500FDBF46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		F32B118F238478F800FDBF46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F32B1192238478F800FDBF46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F32B1194238478F800FDBF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F32B119F2384797D00FDBF46 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		F32B11A12384798600FDBF46 /* Top10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top10.swift; sourceTree = "<group>"; };
 		F32B11A32384798F00FDBF46 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		F32B11A52384799800FDBF46 /* Ideas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideas.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		F32B119B2384794200FDBF46 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				F32B119F2384797D00FDBF46 /* Profile.swift */,
+				7922B0C92384819400D3FB84 /* Profile.swift */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F32B1184238478F500FDBF46 /* AppDelegate.swift in Sources */,
-				F32B11A02384797D00FDBF46 /* Profile.swift in Sources */,
+				7922B0CA2384819400D3FB84 /* Profile.swift in Sources */,
 				F32B1189238478F500FDBF46 /* Luv.xcdatamodeld in Sources */,
 				F32B11A42384798F00FDBF46 /* Locations.swift in Sources */,
 				F32B11A62384799800FDBF46 /* Ideas.swift in Sources */,
