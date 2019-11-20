@@ -6,5 +6,77 @@
         "surveyScore": 95.5,
         "description": "",
         "birthday": "1992-10-04"
+    },
+    {
+        "id": "5A4E4743-203E-40CD-BA5F-2588CB42F6A5",
+        "name": "Monkey D. Luffy",
+        "contactInfo": "",
+        "surveyScore": 91.4,
+        "description": "",
+        "birthday": "1993-11-04"
+    },
+    {
+        "id": "8BD4645B-95F5-499C-8CF1-1FF314F3E77B",
+        "name": "Gol D. Ace",
+        "contactInfo": "",
+        "surveyScore": 80.5,
+        "description": "",
+        "birthday": "1990-07-07"
+    },
+    {
+        "id": "C61EEB9D-CA28-4B5B-9E9C-B16387A5A7EE",
+        "name": "Sabo",
+        "contactInfo": "",
+        "surveyScore": 85.5,
+        "description": "",
+        "birthday": "1992-11-11"
+    },
+    {
+        "id": "5108452F-80AE-43A1-B0BF-45C4B64F542C",
+        "name": "Sasuke Uchiha",
+        "contactInfo": "",
+        "surveyScore": 96.6,
+        "description": "",
+        "birthday": "1992-11-04"
+    },
+    {
+        "id": "58FA22D3-6CAF-4CE4-B1C7-2A093FB1A5EC",
+        "name": "Naruto Uzumaki",
+        "contactInfo": "",
+        "surveyScore": 91.3,
+        "description": "",
+        "birthday": "1994-10-01"
+    },
+    {
+        "id": "1A43C13F-827B-460F-BCC6-4BB676EA36EF",
+        "name": "Shawn Spencer",
+        "contactInfo": "",
+        "surveyScore": 87.2,
+        "description": "",
+        "birthday": "1994-01-01"
+    },
+    {
+        "id": "B9EE7B09-D163-43C9-8F68-FFB16F5714B2",
+        "name": "Burton Guster",
+        "contactInfo": "",
+        "surveyScore": 88.9,
+        "description": "",
+        "birthday": "1992-01-05"
+    },
+    {
+        "id": "185C2EF8-2578-451C-A194-CEEB111770F8",
+        "name": "Phil Coulson",
+        "contactInfo": "",
+        "surveyScore": 83.3,
+        "description": "",
+        "birthday": "1992-05-05"
+    },
+    {
+        "id": "AF30216B-97D5-42FF-B2DA-73AE7662EB1E",
+        "name": "John Snow",
+        "contactInfo": "",
+        "surveyScore": 82.5,
+        "description": "",
+        "birthday": "1992-06-08"
     }
 ]
