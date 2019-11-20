@@ -18,6 +18,12 @@
 		F32B11A22384798600FDBF46 /* Top10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B11A12384798600FDBF46 /* Top10.swift */; };
 		F32B11A42384798F00FDBF46 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B11A32384798F00FDBF46 /* Locations.swift */; };
 		F32B11A62384799800FDBF46 /* Ideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32B11A52384799800FDBF46 /* Ideas.swift */; };
+		F35F76D32384C7E70057099B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F76D22384C7E70057099B /* UserData.swift */; };
+		F35F76D52384C7FE0057099B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F76D42384C7FE0057099B /* UserProfile.swift */; };
+		F35F76D72384C8BA0057099B /* ProfileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F76D62384C8BA0057099B /* ProfileItem.swift */; };
+		F35F76D92384C8CA0057099B /* ProfileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F76D82384C8CA0057099B /* ProfileDetail.swift */; };
+		F35F76DB2384CCDF0057099B /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F76DA2384CCDF0057099B /* ProfileData.swift */; };
+		F35F76DD2384CE560057099B /* ProfileData.json in Resources */ = {isa = PBXBuildFile; fileRef = F35F76DC2384CE560057099B /* ProfileData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		F32B11A12384798600FDBF46 /* Top10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top10.swift; sourceTree = "<group>"; };
 		F32B11A32384798F00FDBF46 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		F32B11A52384799800FDBF46 /* Ideas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideas.swift; sourceTree = "<group>"; };
+		F35F76D22384C7E70057099B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		F35F76D42384C7FE0057099B /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		F35F76D62384C8BA0057099B /* ProfileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItem.swift; sourceTree = "<group>"; };
+		F35F76D82384C8CA0057099B /* ProfileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetail.swift; sourceTree = "<group>"; };
+		F35F76DA2384CCDF0057099B /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		F35F76DC2384CE560057099B /* ProfileData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProfileData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +78,9 @@
 		F32B1182238478F500FDBF46 /* Luv */ = {
 			isa = PBXGroup;
 			children = (
-				F32B119E2384797000FDBF46 /* Ideas */,
-				F32B119D2384796A00FDBF46 /* Locations */,
-				F32B119C2384796300FDBF46 /* Top 10 */,
-				F32B119B2384794200FDBF46 /* Profile */,
-				F32B1183238478F500FDBF46 /* AppDelegate.swift */,
-				F32B1185238478F500FDBF46 /* SceneDelegate.swift */,
+				F35F76D12384C7C80057099B /* Data Model */,
+				F35F76D02384C7A50057099B /* Tab Bar Views */,
+				F35F76CF2384C78B0057099B /* Delegates */,
 				F32B118A238478F500FDBF46 /* ContentView.swift */,
 				F32B118C238478F800FDBF46 /* Assets.xcassets */,
 				F32B1191238478F800FDBF46 /* LaunchScreen.storyboard */,
@@ -120,6 +129,39 @@
 				F32B11A52384799800FDBF46 /* Ideas.swift */,
 			);
 			name = Ideas;
+			sourceTree = "<group>";
+		};
+		F35F76CF2384C78B0057099B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F32B1185238478F500FDBF46 /* SceneDelegate.swift */,
+				F32B1183238478F500FDBF46 /* AppDelegate.swift */,
+			);
+			name = "\bDelegates";
+			sourceTree = "<group>";
+		};
+		F35F76D02384C7A50057099B /* Tab Bar Views */ = {
+			isa = PBXGroup;
+			children = (
+				F32B119B2384794200FDBF46 /* Profile */,
+				F32B119C2384796300FDBF46 /* Top 10 */,
+				F32B119D2384796A00FDBF46 /* Locations */,
+				F32B119E2384797000FDBF46 /* Ideas */,
+				F35F76D62384C8BA0057099B /* ProfileItem.swift */,
+				F35F76D82384C8CA0057099B /* ProfileDetail.swift */,
+			);
+			name = "Tab Bar Views";
+			sourceTree = "<group>";
+		};
+		F35F76D12384C7C80057099B /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F35F76DC2384CE560057099B /* ProfileData.json */,
+				F35F76D42384C7FE0057099B /* UserProfile.swift */,
+				F35F76D22384C7E70057099B /* UserData.swift */,
+				F35F76DA2384CCDF0057099B /* ProfileData.swift */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +225,7 @@
 				F32B1193238478F800FDBF46 /* LaunchScreen.storyboard in Resources */,
 				F32B1190238478F800FDBF46 /* Preview Assets.xcassets in Resources */,
 				F32B118D238478F800FDBF46 /* Assets.xcassets in Resources */,
+				F35F76DD2384CE560057099B /* ProfileData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,12 +237,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F32B1184238478F500FDBF46 /* AppDelegate.swift in Sources */,
+				F35F76D72384C8BA0057099B /* ProfileItem.swift in Sources */,
 				F32B11A02384797D00FDBF46 /* Profile.swift in Sources */,
+				F35F76D52384C7FE0057099B /* UserProfile.swift in Sources */,
 				F32B1189238478F500FDBF46 /* Luv.xcdatamodeld in Sources */,
+				F35F76D32384C7E70057099B /* UserData.swift in Sources */,
 				F32B11A42384798F00FDBF46 /* Locations.swift in Sources */,
 				F32B11A62384799800FDBF46 /* Ideas.swift in Sources */,
+				F35F76DB2384CCDF0057099B /* ProfileData.swift in Sources */,
 				F32B118B238478F500FDBF46 /* ContentView.swift in Sources */,
 				F32B11A22384798600FDBF46 /* Top10.swift in Sources */,
+				F35F76D92384C8CA0057099B /* ProfileDetail.swift in Sources */,
 				F32B1186238478F500FDBF46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
