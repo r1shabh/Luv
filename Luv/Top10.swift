@@ -25,9 +25,3 @@ struct Top10: View {
         } // End of Navigation View
     }
 }
-
-struct Top10_Previews: PreviewProvider {
-    static var previews: some View {
-        Top10()
-    }
-}
