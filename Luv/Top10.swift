@@ -9,7 +9,19 @@
 import SwiftUI
 
 struct Top10: View {
+    
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(userData.profileList) { aProfile in
+                    NavigationLink(destination: ProfileDetail(profile: aProfile)) {
+                        ProfileItem(profile: aProfile)
+                    }
+                }
+            } // End of List
+            .navigationBarTitle(Text("Top 10 Matches"), displayMode: .inline)
+        } // End of Navigation View
     }
 }

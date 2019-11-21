@@ -72,11 +72,6 @@
 		F32B1182238478F500FDBF46 /* Luv */ = {
 			isa = PBXGroup;
 			children = (
-				F32B119D2384796A00FDBF46 /* Locations */,
-				F32B119C2384796300FDBF46 /* Top 10 */,
-				F32B119B2384794200FDBF46 /* Profile */,
-				F32B1183238478F500FDBF46 /* AppDelegate.swift */,
-				F32B1185238478F500FDBF46 /* SceneDelegate.swift */,
 				F32B118A238478F500FDBF46 /* ContentView.swift */,
 				F32B118C238478F800FDBF46 /* Assets.xcassets */,
 				F32B1194238478F800FDBF46 /* Info.plist */,
@@ -184,6 +179,7 @@
 				7922B0D62385F8F100D3FB84 /* LaunchScreen.storyboard in Resources */,
 				F32B1190238478F800FDBF46 /* Preview Assets.xcassets in Resources */,
 				F32B118D238478F800FDBF46 /* Assets.xcassets in Resources */,
+				F35F76DD2384CE560057099B /* ProfileData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +193,13 @@
 				7922B10823862B8B00D3FB84 /* FavoriteLocations.swift in Sources */,
 				7922B10A23862B9C00D3FB84 /* FavoriteIdeas.swift in Sources */,
 				F32B1184238478F500FDBF46 /* AppDelegate.swift in Sources */,
-				7922B0CA2384819400D3FB84 /* Profile.swift in Sources */,
 				F32B1189238478F500FDBF46 /* Luv.xcdatamodeld in Sources */,
+				F35F76D32384C7E70057099B /* UserData.swift in Sources */,
 				F32B11A42384798F00FDBF46 /* Locations.swift in Sources */,
 				F32B118B238478F500FDBF46 /* ContentView.swift in Sources */,
 				7922B0D22385D1B500D3FB84 /* MainTabBarData.swift in Sources */,
 				F32B11A22384798600FDBF46 /* Top10.swift in Sources */,
+				F35F76D92384C8CA0057099B /* ProfileDetail.swift in Sources */,
 				F32B1186238478F500FDBF46 /* SceneDelegate.swift in Sources */,
 				7922B10C23862D5600D3FB84 /* EditProfile.swift in Sources */,
 			);
